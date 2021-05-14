@@ -1,0 +1,258 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+
+
+
+/* style */
+
+body {
+    font: 16px/28px arial, sans-serif;
+    background-color: honeydew;
+    color: darkslategray;
+    background-image: url(../website/img/webb.png);
+    margin-top: 80px;
+}
+
+
+
+
+/* topbar */
+
+.top-bar {
+    position: fixed;
+    top: 0px;
+    right: 0%;
+    left: 0%;
+    height: 60px;
+    background-color: rgb(111, 255, 92);
+    border-bottom: 3px solid rgb(255, 0, 0);
+    z-index: 9999;
+}
+
+.container {
+    width: 74%;
+    margin: auto;
+    background-color: rgba(243, 243, 243, 0.863);
+    height: auto;
+    position: relative;
+}
+
+.twitter {
+    width: 256px;
+    height: 256px;
+    background-image: url(../website/img/twitter-icon.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-indent: -2999px;
+    position: absolute;
+    right: 3px;
+    top: 8px;
+}
+
+.instagram {
+    width: 256px;
+    height: 256px;
+    background-image: url(../website/img/Active-Instagram-3-icon.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-indent: -2999px;
+    position: absolute;
+    right: -60px;
+    top: 8px;
+}
+
+.youtube {
+    width: 70px;
+    height: 70px;
+    background-image: url(../website/img/YouTube-icon.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-indent: -2999px;
+    position: absolute;
+    right: 250px;
+    top: 8px;
+}
+
+
+
+
+
+/* header */
+.header {
+    padding: 17px;
+    padding-bottom: 10px;
+}
+
+.header .judul {
+    font-size: xxx-large;
+    font-weight: normal;
+    font-family: fantasy;
+    font-style: oblique;   
+    font-variant: small-caps;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.header a {
+    text-decoration: none;
+    color: rgb(255, 0, 242);
+    padding: 3px;
+
+}
+
+.header a:hover {
+    background-color: yellow;
+    color: black;
+}
+
+.hero {
+    height: 300px;
+    background-image: url(../website/img/anas-alshanti-feXpdV001o4-unsplash.jpg);
+    background-size: cover;
+    background-position-y: center;
+    border-top: 5px solid cyan;
+    border-bottom: 5px solid orange;
+}
+
+/* content */
+.main {
+    padding: 5px;
+    width: 65%;
+    box-sizing: border-box;
+    float: left;
+}
+
+.main h2 {
+    font-size: x-large;
+    font-weight: 800;
+    padding-left: 30px;
+    padding-top: 23px;
+}
+
+.main .penulis {
+    font-size: small;
+    margin-top: -5px;
+}
+
+.main .penulis a {
+    text-decoration: none;
+    color: rgb(255, 19, 247);
+}
+
+.main p {
+    margin: 20px;
+    font-size: 17px;
+}
+
+/* sidebar */
+.sidebar {
+    width: 30%;
+    float: right;
+    padding: 3%;
+    margin-top: -64%;
+}
+
+.sidebar h3 {
+    font-weight: 900;
+    font-size: larger;
+}
+
+.sidebar img {
+    padding-top: 15px;
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding-right: 10px;
+}
+
+.sidebar p {
+    font: 15px/20px arial;
+   
+}
+
+
+/* footer */
+.footer {
+    background-color: rgb(68, 68, 68);
+    padding:  3%;
+    background-position-y: 1000px;
+    margin-top: 600px;
+}
+
+.footer .copy {
+    color: snow;
+    text-align: center;
+}
+
+
+
+
+
+
+
+/* clearfix */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
