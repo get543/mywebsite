@@ -46,13 +46,16 @@ table {
 
 
 
+
+
 /* style */
 
 body {
     font: 16px/28px arial, sans-serif;
     background-color: honeydew;
     color: darkslategray;
-    background-image: url(../../img/webb.png);
+    background-image: url(../../../img/webb.png);
+    
 }
 
 
@@ -63,6 +66,8 @@ body {
     height: auto;
     position: relative;
 }
+
+
 
 
 
@@ -80,7 +85,7 @@ body {
     font-variant: small-caps;
     padding-bottom: -20px;
     padding-left: 50px;
-    margin-bottom: -30px;
+    margin-bottom: -26px;
 }
 
 
@@ -96,21 +101,15 @@ body {
     color: black;
 }
 
-
-
 .hero {
-    height: 300px;
-    width: 480px;
-    background-image: url(../../img/wallengine-screenshot.png);
+    height: 550px;
+    /* width: 1000px; */
+    background-image: url(../../../img/Tampilan-FL-Studio.jpg);
     background-size: cover;
     background-position-y: center;
     border-top: 5px solid cyan;
     border-bottom: 5px solid orange;
-    padding: 60px;
 }
-
-
-
 
 /* content */
 .content {
@@ -180,16 +179,4 @@ body {
 .footer .copy {
     color: snow;
     text-align: center;
-}
-
-
-/* clearfix */
-.cf:before,
-.cf:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
-}
-
-.cf:after {
-    clear: both;
 }

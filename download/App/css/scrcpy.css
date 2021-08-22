@@ -52,7 +52,7 @@ body {
     font: 16px/28px arial, sans-serif;
     background-color: honeydew;
     color: darkslategray;
-    background-image: url(../../img/webb.png);
+    background-image: url(../../../img/webb.png);
     
 }
 
@@ -99,8 +99,8 @@ body {
 
 .hero {
     height: 500px;
-    width: 700px;
-    background-image: url(../../img/adobepatcherscreenshot.png);
+    width: 300px;
+    background-image: url(../../../img/scrcpy-screenshot.png);
     background-size: cover;
     background-position-y: center;
     border-top: 5px solid cyan;
