@@ -56,7 +56,6 @@ table {
 
 
 /* style */
-
 body {
     font: 16px/28px arial, sans-serif;
     background-color: honeydew;
@@ -65,11 +64,7 @@ body {
     margin-top: 80px;
 }
 
-
-
-
 /* topbar */
-
 .top-bar {
     position: fixed;
     top: 0px;
@@ -89,44 +84,41 @@ body {
     position: relative;
 }
 
-.twitter {
-    width: 256px;
-    height: 256px;
-    background-image: url(./img/twitter-icon.png);
-    background-repeat: no-repeat;
-    display: inline-block;
-    text-indent: -2999px;
-    position: absolute;
-    right: 3px;
-    top: 8px;
-}
-
-.instagram {
-    width: 256px;
-    height: 256px;
-    background-image: url(./img/Active-Instagram-3-icon.png);
-    background-repeat: no-repeat;
-    display: inline-block;
-    text-indent: -2999px;
-    position: absolute;
-    right: -60px;
-    top: 8px;
-}
-
 .youtube {
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
     background-image: url(./img/YouTube-icon.png);
     background-repeat: no-repeat;
     display: inline-block;
     text-indent: -2999px;
     position: absolute;
-    right: 250px;
+    right: 270px;
     top: 8px;
 }
 
+.twitter {
+    width: 50px;
+    height: 50px;
+    background-image: url(./img/twitter-icon.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-indent: -2999px;
+    position: absolute;
+    right: 210px;
+    top: 8px;
+}
 
-
+.instagram {
+    width: 50px;
+    height: 50px;
+    background-image: url(./img/Active-Instagram-3-icon.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-indent: -2999px;
+    position: absolute;
+    right: 148px;
+    top: 8px;
+}
 
 
 /* header */
@@ -153,7 +145,6 @@ body {
     text-decoration: none;
     color: rgb(255, 0, 242);
     padding: 3px;
-
 }
 
 .header a:hover {
@@ -203,9 +194,8 @@ body {
 /* sidebar */
 .sidebar {
     width: 30%;
-    float: right;
-    padding: 3%;
-    margin-top: -64%;
+    float: left;
+    padding-top: 30px;
 }
 
 .sidebar h3 {
@@ -226,25 +216,19 @@ body {
    
 }
 
-
 /* footer */
 .footer {
     background-color: rgb(68, 68, 68);
     padding:  3%;
-    background-position-y: 1000px;
-    margin-top: 600px;
+    bottom: -100px;
+    width: 94%;
+    position: absolute;
 }
 
 .footer .copy {
     color: snow;
     text-align: center;
 }
-
-
-
-
-
-
 
 /* clearfix */
 .cf:before,
