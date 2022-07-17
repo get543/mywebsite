@@ -3,241 +3,305 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
-
-
-
-
 
 /* style */
 
 body {
-    font: 16px/28px arial, sans-serif;
-    background-color: honeydew;
-    color: darkslategray;
-    background-image: url(../img/webb.png);
-    margin-top: 80px;
+  font: 16px/28px arial, sans-serif;
+  background-color: honeydew;
+  color: darkslategray;
+  background-image: url(../img/webb.png);
+  margin-top: 80px;
 }
-
-
-
-
 
 /* topbar */
 
 .top-bar {
-    position: fixed;
-    top: 0px;
-    right: 0%;
-    left: 0%;
-    height: 60px;
-    background-color: rgb(111, 255, 92);
-    border-bottom: 3px solid rgb(255, 0, 0);
-    z-index: 9999;
+  position: fixed;
+  top: 0px;
+  right: 0%;
+  left: 0%;
+  height: 60px;
+  background-color: rgb(111, 255, 92);
+  border-bottom: 3px solid rgb(255, 0, 0);
+  z-index: 9999;
 }
 
 .container {
-    width: 74%;
-    margin: auto;
-    background-color: rgba(243, 243, 243, 0.863);
-    height: auto;
-    position: relative;
+  width: 74%;
+  margin: auto;
+  background-color: rgba(243, 243, 243, 0.863);
+  height: auto;
+  position: relative;
 }
 
 .twitter {
-    width: 256px;
-    height: 256px;
-    background-image: url(../img/twitter-icon.png);
-    background-repeat: no-repeat;
-    display: inline-block;
-    text-indent: -2999px;
-    position: absolute;
-    right: 3px;
-    top: 8px;
+  width: 256px;
+  height: 256px;
+  background-image: url(../img/twitter-icon.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  text-indent: -2999px;
+  position: absolute;
+  right: 3px;
+  top: 8px;
 }
 
 .instagram {
-    width: 256px;
-    height: 256px;
-    background-image: url(../img/Active-Instagram-3-icon.png);
-    background-repeat: no-repeat;
-    display: inline-block;
-    text-indent: -2999px;
-    position: absolute;
-    right: -60px;
-    top: 8px;
+  width: 256px;
+  height: 256px;
+  background-image: url(../img/Active-Instagram-3-icon.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  text-indent: -2999px;
+  position: absolute;
+  right: -60px;
+  top: 8px;
 }
 
 .youtube {
-    width: 70px;
-    height: 70px;
-    background-image: url(../img/YouTube-icon.png);
-    background-repeat: no-repeat;
-    display: inline-block;
-    text-indent: -2999px;
-    position: absolute;
-    right: 250px;
-    top: 8px;
+  width: 70px;
+  height: 70px;
+  background-image: url(../img/YouTube-icon.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  text-indent: -2999px;
+  position: absolute;
+  right: 250px;
+  top: 8px;
 }
-
-
-
-
-
 
 /* header */
 
 .header {
-    padding: 17px;
-    padding-bottom: 10px;
+  padding: 17px;
+  padding-bottom: 10px;
 }
 
 .header .judul {
-    font-size: xxx-large;
-    font-weight: normal;
-    font-family: fantasy;
-    font-style: oblique;   
-    font-variant: small-caps;
+  font-size: xxx-large;
+  font-weight: normal;
+  font-family: fantasy;
+  font-style: oblique;
+  font-variant: small-caps;
 }
 
 .header ul li {
-    display: inline-block;
-    margin-top: 10px;
-    margin-right: 20px;
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 20px;
 }
 
 .header a {
-    text-decoration: none;
-    color: rgb(255, 0, 242);
-    padding: 3px;
-
+  text-decoration: none;
+  color: rgb(255, 0, 242);
+  padding: 3px;
 }
 
 .header a:hover {
-    background-color: yellow;
-    color: black;
+  background-color: yellow;
+  color: black;
 }
 
 .hero {
-    height: 300px;
-    background-image: url(../img/Background-Download.jpg);
-    background-size: cover;
-    background-position-y: center;
-    border-top: 5px solid cyan;
-    border-bottom: 5px solid orange;
+  height: 300px;
+  background-image: url(../img/Background-Download.jpg);
+  background-size: cover;
+  background-position-y: center;
+  border-top: 5px solid cyan;
+  border-bottom: 5px solid orange;
 }
 
 /* content */
 .content {
-    padding: 5px;
-    padding-left: 5px;
+  padding: 5px;
+  padding-left: 5px;
 }
 
 .content a {
-    text-decoration: none;
-    color: rgb(255, 0, 242);
-    padding: 3px;
+  text-decoration: none;
+  color: rgb(255, 0, 242);
+  padding: 3px;
 }
 
 .content h2 {
-    font-size: x-large;
-    font-weight: 800;
-    padding-left: 30px;
-    padding-top: 23px;
+  font-size: x-large;
+  font-weight: 800;
+  padding-left: 30px;
+  padding-top: 23px;
 }
 
 .content .penulis {
-    font-size: small;
-    margin-top: -5px;
+  font-size: small;
+  margin-top: -5px;
 }
 
 .content .penulis a {
-    text-decoration: none;
-    color: rgb(255, 19, 247);
+  text-decoration: none;
+  color: rgb(255, 19, 247);
 }
 
 .content p {
-    margin: 30px;
-    font-size: 17px;
+  margin: 30px;
+  font-size: 17px;
 }
 
 .content .Howto h2 {
-    font-family: 'Courier New', Courier, monospace;
-    background-color: orange;
-    padding: 10px 10px 10px 30px;
+  font-family: "Courier New", Courier, monospace;
+  background-color: orange;
+  padding: 10px 10px 10px 30px;
 }
 
 .content .Howto ol li {
-    padding-left: 50px;
-    list-style-type: decimal;
-    list-style-position: inside;
+  padding-left: 50px;
+  list-style-type: decimal;
+  list-style-position: inside;
 }
 
 .content .app h2 {
-    font-family: 'Courier New', Courier, monospace;
-    background-color: cyan;
-    padding: 10px 10px 10px 30px;
+  font-family: "Courier New", Courier, monospace;
+  background-color: cyan;
+  padding: 10px 10px 10px 30px;
 }
 
 .content .app ol li {
-    padding-left: 43px;
-    text-decoration: none;
-    color: darkgreen;
-    list-style-type: none;
+  padding-left: 43px;
+  text-decoration: none;
+  color: darkgreen;
+  list-style-type: none;
 }
-
-
-
 
 /* footer */
 .footer {
-    background-color: rgb(68, 68, 68);
-    padding:  1%;
+  background-color: rgb(68, 68, 68);
+  padding: 1%;
 }
 
 .footer .copy {
-    color: snow;
-    text-align: center;
+  color: snow;
+  text-align: center;
 }
